@@ -12,13 +12,13 @@
 
         pendo.initialize({
             visitor: {
-                id:           'scratch-pad',
+                id:           '',
                 email:        "darshan.hulswar@scratch-pad.netlify.app",
                 full_name:    "scratch-pad"
             },
 
             account: {
-                id:           'scratch-pad',
+                id:           '',
                 name:         "scratch-pad",
             }
         });
