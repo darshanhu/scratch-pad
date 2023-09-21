@@ -12,15 +12,14 @@
 
         pendo.initialize({
             visitor: {
-                id:           'SOFTLAND_VISITOR_DARSHAN',
-                email:        "darshan.hulswar@softland.com",
-                full_name:    "Darshan Hulswar"
+                id:           'scratch-pad',
+                email:        "darshan.hulswar@scratch-pad.netlify.app",
+                full_name:    "scratch-pad"
             },
 
             account: {
-                id:           'SOFTLAND_ACCOUNT_1',
-                name:         "SOFTLAND_ACCOUNT",
-                creationDate: new Date().toISOString().slice(0, 10)
+                id:           'scratch-pad',
+                name:         "scratch-pad",
             }
         });
 
