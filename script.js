@@ -1,5 +1,5 @@
 // Iframe that sends the click event
-document.getElementById('id').addEventListener('click', function() {
+document.querySelector('h1').addEventListener('click', function() {
       // Send a message to the other iframe with the ID of the element to click
       window.frames['second-iframe'].postMessage(document.getElementById('softland-btn').id, '*');
     });
