@@ -4,24 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scratch Pad</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <iframe
-      id="first-iframe"
-      title="Inline Frame Example"
-      width="1080"
-      height="900"
-      src="https://darshanhu.github.io/"
-    >
-    </iframe>
-    <iframe
-      id="second-iframe"
-      title="Inline Frame Example"
-      width="1080"
-      height="900"
-      src="https://softlandsite.netlify.app/"
-    >
-    </iframe>
+    <div class="container mb-5 mt-5">
+      <button id="send-message-btn" class="btn btn-primary">
+        Send a message
+      </button>
+    </div>
+    <div class="container-fluid">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <h1 class="display-5 text-center">iFrame - 1</h1>
+          <iframe
+            id="first-iframe"
+            title="Inline Frame Example"
+            width="100%"
+            height="900"
+            src="https://darshanhu.github.io/"
+          >
+          </iframe>
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-5 text-center">iFrame - 2</h1>
+
+          <iframe
+            id="second-iframe"
+            title="Inline Frame Example"
+            width="100%"
+            height="900"
+            src="https://softlandsite.netlify.app/"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
 
     <script src="./pendo/init.js"></script>
     <script src="./script.js"></script>

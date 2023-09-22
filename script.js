@@ -13,3 +13,13 @@
 //       // Click the element
 //       element.click();
 //     });
+
+const sendMessageBtn = document.querySelector("#send-message-btn");
+
+function sendMessage() {
+    const message = "guide-id";
+    const iframe = document.querySelector('#second-iframe');
+    iframe.contentWindow.postMessage(message, "*");
+}
+
+sendMessageBtn.addEventListener('click', sendMessage);
