@@ -25,11 +25,11 @@
 
         pendo.initialize({
             visitor: {
-                id: '',
+                id: "",
             },
 
             account: {
-                id: '',
+                id: "",
         });
 
 })('43994d6b-66ea-49fc-71f1-31077e387150');
