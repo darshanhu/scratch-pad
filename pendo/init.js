@@ -10,17 +10,26 @@
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
 
+        // pendo.initialize({
+        //     visitor: {
+        //         id:           'scratch-pad',
+        //         email:        "darshan.hulswar@scratch-pad.netlify.app",
+        //         full_name:    "scratch-pad"
+        //     },
+
+        //     account: {
+        //         id:           '',
+        //         name:         "scratch-pad",
+        //     }
+        // });
+
         pendo.initialize({
             visitor: {
-                id:           'scratch-pad',
-                email:        "darshan.hulswar@scratch-pad.netlify.app",
-                full_name:    "scratch-pad"
+                id: '',
             },
 
             account: {
-                id:           '',
-                name:         "scratch-pad",
-            }
+                id: '',
         });
 
 })('43994d6b-66ea-49fc-71f1-31077e387150');
