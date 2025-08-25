@@ -25,11 +25,11 @@
 
         pendo.initialize({
             visitor: {
-                id: "",
+                id: "top-frame-id",
             },
 
             account: {
-                id: "",
+                id: "top-frame-account-id",
             }
         });
 
